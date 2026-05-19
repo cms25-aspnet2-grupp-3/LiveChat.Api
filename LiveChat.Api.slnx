@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="LiveChat.Api.Tests/LiveChat.Api.Tests.csproj" Id="f827b67b-fcd0-4644-9b5a-c67d11ac8ae0" />
   <Project Path="LiveChat.Api/LiveChat.Api.csproj" />
 </Solution>
