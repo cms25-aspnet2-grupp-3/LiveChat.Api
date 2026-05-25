@@ -7,7 +7,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("NextJs", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") 
+        policy.WithOrigins(
+                "http://localhost:3000",
+                "https://shiko-webapp-nu.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
